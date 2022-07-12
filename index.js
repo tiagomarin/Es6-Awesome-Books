@@ -1,10 +1,10 @@
-import bookIDgenerator from './modules/idGenerator.mjs';
-import createBook from './modules/createBook.mjs';
-import displayBooks from './modules/displayBooks.mjs';
-import clearBooks from './modules/clearBooks.mjs';
-import getArr from './modules/getDataFromLocalStorage.mjs';
-import saveInLocalStorage from './modules/saveAtLocalStorage.mjs';
-import { DateTime } from './modules/luxon.mjs';
+import bookIDgenerator from './modules/idGenerator.js';
+import createBook from './modules/createBook.js';
+import displayBooks from './modules/displayBooks.js';
+import clearBooks from './modules/clearBooks.js';
+import getArr from './modules/getDataFromLocalStorage.js';
+import saveInLocalStorage from './modules/saveAtLocalStorage.js';
+import { DateTime } from './modules/luxon.js';
 
 //  -------------- EVENT LISTENERS ------------------
 // TARGET DOM ELEMENTS --------
@@ -34,6 +34,8 @@ addButtun.addEventListener('click', () => {
 });
 
 // REMOVE BOOK BUTTON
+
+.addEventListener()
 rmvButton.forEach((remove) => {
   remove.addEventListener('click', (event) => {
     const index = parseInt(event.target.id, 10);
