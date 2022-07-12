@@ -7,7 +7,6 @@ import saveInLocalStorage from './modules/saveAtLocalStorage.mjs';
 import { DateTime } from './modules/luxon.mjs';
 
 //  -------------- EVENT LISTENERS ------------------
-
 // TARGET DOM ELEMENTS --------
 const addButtun = document.querySelector('#add');
 const rmvButton = Array.from(document.querySelectorAll('.remove-button'));
